@@ -1,0 +1,141 @@
+# ==============================================================================
+# FIRESTICK HARDENED TOOLKIT - BLOATWARE PACKAGE LIST
+# ==============================================================================
+# Verified on Fire OS 7 (Android 9 Pie) & Fire OS 8 (Android 11/12).
+# All packages are safely disabled via `pm disable-user --user 0 <pkg>`.
+# This preserves the underlying APK so that `restore.sh` can re-enable at any time.
+# ==============================================================================
+
+# --- [1] Telemetry, Behavioral Tracking & Metrics (24 Packages) ---
+# Continuously upload analytics, performance metrics, and usage telemetry to Amazon.
+com.amazon.client.metrics.api
+com.amazon.connectivitydiag
+com.amazon.cpl
+com.amazon.d3
+com.amazon.dp.logger
+com.amazon.dpcclient
+com.amazon.firetv.troubleshooting
+com.amazon.kso.blackbird
+com.amazon.logan
+com.amazon.neo.minerva
+com.amazon.neo.minerva.logcat
+com.amazon.perfc
+com.amazon.perfcollection
+com.amazon.prism.android.service
+com.amazon.systemnotices
+com.amazon.tifobserver
+com.amazon.tv.developer.dataservice
+com.amazon.tv.fw.metrics
+com.amazon.tv.support
+com.amazon.wirelessmetrics.service
+com.android.traceur
+com.fireos.sdk.ftve.addp
+com.amazon.tv.consents
+com.amazon.tv.legal.notices
+
+# --- [2] Targeted Advertising & Commercial Profiling (6 Packages) ---
+# Services dedicated to device advertising ID generation, tracking, and ad delivery.
+com.amazon.ceviche
+com.amazon.hybridadidservice
+com.amazon.privacypassservice
+com.amazon.spiderpork
+com.amazon.minitv.android.app
+com.amazon.shoptv.client
+
+# --- [3] Alexa Voice Daemons & Ambient Background Listeners (12 Packages) ---
+# Background services continuously waking the CPU for Alexa voice directives.
+com.amazon.alexa.datastore.app
+com.amazon.alexa.externalmediaplayer.fireos
+com.amazon.alexadirectivebrokerservice
+com.amazon.alexamediaplayer.runtime.ftv
+com.amazon.audiohome
+com.amazon.alta.h2clientservice
+com.amazon.cardinal
+com.amazon.hedwig
+com.amazon.tv.alexaalerts
+com.amazon.tv.alexanotifications
+com.amazon.wha.mediabrowserservice
+com.amazon.whad
+
+# --- [4] Stock Recommendation & Home Screen Ad Pushers (8 Packages) ---
+# Push Amazon-sponsored carousels, home banner ads, and forced live TV recommendations.
+com.amazon.media.recommendations
+com.amazon.shoptv.firetv.client
+com.amazon.stillwatching.activity
+com.amazon.tv.livetv
+com.amazon.tv.ooberesource
+com.amazon.tv.ottssocompanionapp
+com.amazon.tv.releasenotes
+com.amazon.tv.turnstile
+
+# --- [5] System Lockouts & Forced OTA Updaters (3 Packages) ---
+# Enforce background firmware overwrites and silent telemetry upgrades.
+com.amazon.tv.forcedotaupdater.v2
+com.amazon.tv.easyupgrade
+com.amazon.tv.ffsprovisioneeclient
+
+# --- [6] Amazon Cloud Sync & Data Uploaders (6 Packages) ---
+# Cloud upload services including Wi-Fi password syncing to Amazon servers.
+com.amazon.wifilocker
+com.amazon.whisperplay.contracts
+com.amazon.whisperplay.service.install
+com.amazon.ods.kindleconnect
+com.amazon.net.smartconnect
+com.amazon.ssm
+
+# --- [7] Redundant Retail, Media & Demo Apps (14 Packages) ---
+# Preinstalled media viewers, retail tutorials, and dummy packages.
+com.amazon.bueller.music
+com.amazon.bueller.photos
+com.amazon.gamehub
+com.amazon.csm.htmlruntime
+com.amazon.sneakpeek
+com.amazon.spotify.mediabrowserservice
+com.amazon.storm.lightning.services
+com.amazon.storm.lightning.tutorial
+com.amazon.tmm.tutorial
+com.amazon.tahoe
+com.amazon.recess
+com.amazon.tv.acr
+com.amazon.tv.website_launcher
+com.amazon.ftv.screensaver
+
+# --- [8] Dummy System Placeholders (6 Packages) ---
+# Empty stub packages consuming package manager indexing cycles.
+com.amazon.dummy.alarmclock
+com.amazon.dummy.calendar
+com.amazon.dummy.contacts
+com.amazon.dummy.gallery
+com.amazon.dummy.music
+com.amazon.dummy.settings
+
+# --- [9] Hardware-Irrelevant & Unused AOSP Services (17 Packages) ---
+# Services compiled into the OS for hardware the Firestick does not have (e.g. NFC, Printers, MIDI).
+com.android.nfc
+com.android.printspooler
+com.android.bluetoothmidiservice
+com.android.companiondevicemanager
+com.android.dreams.basic
+com.android.pacprocessor
+com.android.sharedstoragebackup
+com.android.wallpaperbackup
+com.android.wallpapercropper
+com.android.wallpaperpicker
+com.amazon.avls.experience
+com.amazon.avsyncslider
+com.amazon.awvflingreceiver
+com.amazon.cast.sink
+com.amazon.livedeviceservice
+com.amazon.rtcsessioncontroller
+com.amazon.tv.resolutioncycler
+
+# --- [10] Legacy Text-To-Speech & Smart Home Engines (8 Packages) ---
+# Legacy voice synthesizer files and redundant matter cohost frameworks.
+com.ivona.orchestrator
+com.ivona.tts.oem
+com.svox.pico
+com.amazon.tv.matter
+com.amazon.tv.mattercohost
+com.amazon.whasettings
+com.amazon.tv.legalresources
+com.amazon.firetv.androidskillconnectioncapability

@@ -1,0 +1,34 @@
+# ==============================================================================
+# FIRESTICK HARDENED TOOLKIT - SAFE / CRITICAL WHITELIST
+# ==============================================================================
+# These packages must NEVER be disabled or removed.
+# Disabling any of these will result in a bootloop, broken remote, or loss of Wi-Fi.
+# ==============================================================================
+
+# Core System & Framework
+android
+com.android.systemui
+com.android.keychain
+com.android.settings
+com.android.providers.settings
+com.android.providers.media
+com.android.providers.downloads
+com.android.providers.downloads.ui
+
+# Hardware & Connectivity (Wi-Fi, Bluetooth, Audio)
+com.android.bluetooth
+com.amazon.device.bluetooth
+com.amazon.tv.ime
+com.amazon.tv.settings.v2
+com.amazon.tv.settings.core
+com.amazon.tv.keypolicymanager
+
+# Remote Control & Input
+com.amazon.tv.devicecontrol
+com.amazon.tv.devicecontrolsettings
+com.amazon.franktvinput
+
+# App Installer & Package Manager
+com.android.packageinstaller
+com.amazon.venezia                    # Amazon Appstore (needed for app updates/auth)
+com.amazon.appaccesskeyprovider
