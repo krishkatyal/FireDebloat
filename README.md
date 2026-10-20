@@ -1,4 +1,4 @@
-# ⚡ Firestick Hardened Toolkit
+# ⚡ FireDebloat
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Fire%20OS%206%20%7C%207%20%7C%208-orange.svg)](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html)
 [![Requirements](https://img.shields.io/badge/Requirements-ADB%20(No%20Root)-blue.svg)](#prerequisites)
 [![Safety](https://img.shields.io/badge/Safety-100%25%20Reversible-success.svg)](#safety--restoration)
-[![Stars](https://img.shields.io/github/stars/krishkatyal/firestick-hardened-toolkit?style=social)](https://github.com/krishkatyal/firestick-hardened-toolkit)
+[![Stars](https://img.shields.io/github/stars/krishkatyal/FireDebloat?style=social)](https://github.com/krishkatyal/FireDebloat)
 
 **The ultimate open-source debloating, privacy hardening, and performance optimization suite for Amazon Fire TV & Firestick devices.**
 
@@ -20,7 +20,7 @@
 
 Out of the box, Amazon Fire TV devices dedicate **up to 75% of their available memory and background CPU cycles** to telemetry daemons, sponsored ad carousels, Alexa audio wake-word listeners, and background analytics. For devices with 1 GB or 1.5 GB of RAM (such as the Fire TV Stick Lite, 3rd Gen, or 4K), this causes severe UI stutter, app evictions, and sluggish launcher navigation.
 
-**Firestick Hardened Toolkit** is a zero-risk, no-root automation suite that transforms sluggish Fire TV sticks into sleek, lightweight streaming hubs.
+**FireDebloat** is a zero-risk, no-root automation suite that transforms sluggish Fire TV sticks into sleek, lightweight streaming hubs.
 
 ### 🌟 Key Highlights
 
@@ -69,8 +69,8 @@ Real-world metrics captured from a retail **Fire TV Stick 3rd Gen (Model AFTSSS,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/krishkatyal/firestick-hardened-toolkit.git
-cd firestick-hardened-toolkit
+git clone https://github.com/krishkatyal/FireDebloat.git
+cd FireDebloat
 ```
 
 ### 2. Connect to Your Fire TV via ADB
